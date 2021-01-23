@@ -67,6 +67,10 @@ echo 'Install mamp'
 echo '------------'
 brew install mamp
 
+echo 'Install composer'
+echo '----------------'
+brew install composer
+
 echo 'Install 1password'
 echo '-----------------'
 brew install 1password
