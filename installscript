@@ -28,9 +28,9 @@ echo install homebrew
 sudo rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-echo 'Install node'
-echo '------------'
-brew install node@8
+echo 'Install nvm'
+echo '-----------'
+brew install nvm
 
 echo 'Install some nice quicklook plugins'
 echo '-----------------------------------'
