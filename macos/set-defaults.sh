@@ -174,7 +174,7 @@ defaults write com.apple.finder FXInfoPanesExpanded -dict \
 ###############################################################################
 
 # Prevent applications from bouncing in Dock
-defaults write com.apple.dock no-bouncing -bool true
+defaults write com.apple.dock no-bouncing -bool false
 
 # Set the icon size of Dock items to 72 pixels
 defaults write com.apple.dock tilesize -int 72
@@ -186,6 +186,10 @@ defaults write com.apple.dock show-process-indicators -bool true
 # This is only really useful when setting up a new Mac, or if you don’t use
 # the Dock to launch apps.
 defaults write com.apple.dock persistent-apps -array ""
+
+# Enable trackpad three finger vertial down gesture for app expose
+defaults write com.apple.dock showAppExposeGestureEnabled -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerVertSwipeGesture -int 2
 
 # Disable Dashboard
 #defaults write com.apple.dashboard mcx-disabled -bool true
