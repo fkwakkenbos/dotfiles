@@ -19,12 +19,15 @@ git config --global core.excludesfile $HOME/.global-gitignore
 rm $HOME/.zshrc
 ln -s $HOME/dotfiles/shell/.zshrc $HOME/.zshrc
 
+# Symlink the Mackup config
+ln -s $HOME/dotfiles/macos/.mackup.cfg $HOME/.mackup.cfg
+
 # Fix missing font characters (see https://github.com/robbyrussell/oh-my-zsh/issues/1906)
 cd ~/.oh-my-zsh/themes/
 git checkout d6a36b1 agnoster.zsh-theme
 
 # Activate z
-cd ~/.dotfiles/shell
+cd ~/dotfiles/shell
 chmod +x z.sh
 
 echo 'Install homebrew'
@@ -128,10 +131,6 @@ echo 'Install atom'
 echo '------------'
 brew install atom
 
-echo 'Install firefox'
-echo '---------------'
-brew install firefox
-
 echo 'Install google-drive-file-stream'
 echo '--------------------------------'
 brew install google-drive-file-stream
@@ -181,14 +180,14 @@ echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
 echo 'All done!'
 echo 'Things to do to make the agnoster terminal theme work:'
-echo '1. Install menlo patched font included in ~/.dotfiles/misc https://gist.github.com/qrush/1595572/raw/Menlo-Powerline.otf'
-echo '2. Install patched solarized theme included in ~/.dotfiles/misc'
+echo '1. Install menlo patched font included in ~/dotfiles/misc https://gist.github.com/qrush/1595572/raw/Menlo-Powerline.otf'
+echo '2. Install patched solarized theme included in ~/dotfiles/misc'
 
 echo '++++++++++++++++++++++++++++++'
 echo 'Some optional tidbits'
 
 echo '1. Make sure dropbox is running first. If you have not backed up via Mackup yet, then run `mackup backup` to symlink preferences for a wide collection of apps to your dropbox. If you already had a backup via mackup run `mackup restore` You'\''ll find more info on Mackup here: https://github.com/lra/mackup.'
-echo '2. Set some sensible os x defaults by running: $HOME/.dotfiles/macos/set-defaults.sh'
+echo '2. Set some sensible os x defaults by running: $HOME/dotfiles/macos/set-defaults.sh'
 echo '3. Make a .dotfiles-custom/shell/.aliases for your personal commands'
 
 echo '++++++++++++++++++++++++++++++'
