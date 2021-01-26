@@ -34,12 +34,12 @@ brew install nvm
 
 echo 'Install some nice quicklook plugins'
 echo '-----------------------------------'
-brew cask install --force qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webp-quicklook suspicious-package
+brew install --force qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip webp-quicklook suspicious-package
 
 echo 'Install php'
 echo '-----------'
-brew install php@5.6
-brew install php@7.1
+#!! brew install php@5.6
+#!! brew install php@7.1
 brew install php@7.4
 brew install php@8.0
 
@@ -142,6 +142,26 @@ brew install anydesk
 echo 'Install authy'
 echo '-------------'
 brew install authy
+
+echo 'Install ansible'
+echo '---------------'
+brew install ansible
+
+echo 'Install discord'
+echo '---------------'
+brew install discord
+
+echo 'Install screen.so'
+echo '-----------------'
+brew install --cask screen
+
+echo 'Install firefox'
+echo '---------------'
+brew install --cask firefox
+
+echo 'Install zoom'
+echo '---------------'
+brew install --cask zoom
 
 
 echo '++++++++++++++++++++++++++++++'
