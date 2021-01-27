@@ -175,6 +175,13 @@ echo 'Install google-chrome'
 echo '---------------------'
 brew install --cask google-chrome
 
+echo 'create ~/.nvm directory'
+echo '-----------------------'
+mkdir ~/.nvm
+
+echo 'create ~/.profile directory'
+echo '-----------------------'
+mkdir ~/.profile
 
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
