@@ -30,15 +30,15 @@ git checkout d6a36b1 agnoster.zsh-theme
 cd ~/dotfiles/shell
 chmod +x z.sh
 
+echo 'Install nvm'
+echo '-----------'
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+
 echo 'Install homebrew'
 echo '----------------'
 echo install homebrew
 sudo rm -rf /usr/local/Cellar /usr/local/.git && brew cleanup
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-echo 'Install nvm'
-echo '-----------'
-brew install nvm
 
 echo 'Install some nice quicklook plugins'
 echo '-----------------------------------'
