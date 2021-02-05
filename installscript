@@ -101,7 +101,7 @@ brew install fork
 
 echo 'Install termius'
 echo '---------------'
-brew install termius
+brew install --cask termius
 
 echo 'Install slack'
 echo '-------------'
