@@ -156,6 +156,9 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Flwv"
 # Disable the warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool true
 
+# Show hidden files
+defaults write com.apple.Finder AppleShowAllFiles true
+
 # Show the ~/Library folder
 chflags nohidden ~/Library
 
