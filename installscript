@@ -46,8 +46,9 @@ brew install --force qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypat
 
 echo 'Install php'
 echo '-----------'
-#!! brew install php@5.6
-#!! brew install php@7.1
+brew install php@5.6
+brew install php@7.1
+brew install php@7.3
 brew install php@7.4
 brew install php@8.0
 
