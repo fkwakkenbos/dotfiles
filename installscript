@@ -156,6 +156,10 @@ echo 'Install discord'
 echo '---------------'
 brew install discord
 
+echo 'Install teleport https://gravitational.com/teleport'
+echo '---------------------------------------------------'
+brew install teleport
+
 echo 'Install screen.so'
 echo '-----------------'
 brew install --cask screen
@@ -175,6 +179,10 @@ brew install --cask iterm2
 echo 'Install google-chrome'
 echo '---------------------'
 brew install --cask google-chrome
+
+echo 'Install figma'
+echo '---------------------'
+brew install --cask figma
 
 echo 'create ~/.nvm directory'
 echo '-----------------------'
