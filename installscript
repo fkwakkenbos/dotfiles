@@ -184,6 +184,10 @@ echo 'Install figma'
 echo '---------------------'
 brew install --cask figma
 
+echo 'Install visual studio code'
+echo '---------------------'
+brew install --cask visual-studio-code
+
 echo 'create ~/.nvm directory'
 echo '-----------------------'
 mkdir ~/.nvm
