@@ -219,3 +219,15 @@ echo '- PhpStorm'
 
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
+
+echo '++++++++++++++++++++++++++++++'
+echo 'Font Awesome v5 Pro global license'
+
+echo 'Log-in (using credentials in 1Password) at: https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/using-package-managers'
+echo 'read the "Installing the Pro version of Font Awesome" instructions'
+echo 'example: '
+echo 'npm config set "@fortawesome:registry" https://npm.fontawesome.com/'
+echo 'npm config set "//npm.fontawesome.com/:_authToken" XXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXXX (see above link)'
+
+echo '++++++++++++++++++++++++++++++'
+echo '++++++++++++++++++++++++++++++'
