@@ -84,4 +84,4 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="$PATH:/Users/fk/flutter/bin"
 
 # java
-export JAVA_HOME=$(/usr/libexec/java_home)
+#export JAVA_HOME=$(/usr/libexec/java_home)
