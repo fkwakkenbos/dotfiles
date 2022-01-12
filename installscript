@@ -160,10 +160,6 @@ echo 'Install teleport https://gravitational.com/teleport'
 echo '---------------------------------------------------'
 brew install teleport
 
-echo 'Install screen.so'
-echo '-----------------'
-brew install --cask screen
-
 echo 'Install firefox'
 echo '---------------'
 brew install --cask firefox
@@ -220,6 +216,7 @@ echo 'Some missing apps'
 echo '- FileMaker'
 echo '- Pixelmator'
 echo '- PhpStorm'
+echo '- Pop (via pop.com)'
 
 echo '++++++++++++++++++++++++++++++'
 echo '++++++++++++++++++++++++++++++'
