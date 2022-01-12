@@ -188,6 +188,10 @@ echo 'Install visual studio code'
 echo '---------------------'
 brew install --cask visual-studio-code
 
+echo 'Install deadbolt encryption tool
+echo '-------------------------------'
+brew install --cask deadbolt
+
 echo 'create ~/.nvm directory'
 echo '-----------------------'
 mkdir ~/.nvm
